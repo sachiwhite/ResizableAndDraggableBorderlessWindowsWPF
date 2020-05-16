@@ -9,12 +9,12 @@
              mc:Ignorable="d" 
              Height="30" 
              d:DesignWidth="800"
-             Background="Black" >
+            >
     
     <UserControl.Resources>
         <local:BorderControlViewModel x:Key="BorderViewModel"></local:BorderControlViewModel>
     </UserControl.Resources>
-    <Border >
+    <Border BorderBrush="Black">
     <Grid DataContext="{StaticResource BorderViewModel}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -27,7 +27,7 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
                 <Image Source="{Binding IconSource}" ></Image>
-                <Label Foreground="Wheat" Margin="5,0" Content="{Binding BorderLabel}" > </Label>
+                <Label Foreground="Black" Margin="5,0" Content="{Binding BorderLabel}" > </Label>
            
         </StackPanel>
          <StackPanel Orientation="Horizontal" Grid.Column="1">
