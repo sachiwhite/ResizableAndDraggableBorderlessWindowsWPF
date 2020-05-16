@@ -1,5 +1,5 @@
 # ResizableAndDraggableBorderlessWindowsWPF
-This is a wrapper to simplify creating borderless windows in WPF.
+This is a wrapper to simplify creating borderless windows in WPF. It contains bindings with your window tile and window icon (if you specified one), so you don't have to worry about consistence.
 
 ## How to use?
 * Download the repository
